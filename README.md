@@ -1,7 +1,10 @@
 # How to use
 
 1. install
+
+```cmd
    yarn add -D https://github.com/moverfinance/sigma-deployments.git#staging
+```
 
 2. import
 
