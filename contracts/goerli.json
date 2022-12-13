@@ -1,0 +1,141 @@
+{
+    "chainId": 5,
+    "network": "goerli",
+    "version": "1.0.0",
+    "contracts": {
+        "AmmFactory": {
+            "createdBlockNumber": 7448700,
+            "logic": "0xEB966a6870d7A1b9202BBA6A1B619cE55b7e05a1",
+            "name": "contracts/AmmFactory.sol:AmmFactory",
+            "proxy": "0xFD3504308E8db00c2a2E52f16489B1040307e288"
+        },
+        "AmmLib": {
+            "createdBlockNumber": 7448731,
+            "logic": "0x33609FD289018045Ab703Da2108692046FDD9B82",
+            "name": "contracts/AmmLib.sol:AmmLib",
+            "proxy": ""
+        },
+        "BTCAmm": {
+            "createdBlockNumber": 7448738,
+            "logic": "0x8ed578f01CB3A8116FBc1B40034dB51aDC8e135e",
+            "name": "contracts/Amm.sol:Amm",
+            "proxy": "0xD59115A7B6a2fB3B43C0c29FEd84C74Ff0699bE3"
+        },
+        "BTCUSDCChainlinkPriceFeed": {
+            "createdBlockNumber": 7448683,
+            "logic": "0xE7FCec5182f5180FAe2b88a84890e46dE62675d3",
+            "name": "contracts/ChainlinkPriceFeed.sol:ChainlinkPriceFeed",
+            "proxy": "0xA38668eE59e4CCb756109F628305e938a8722AA8"
+        },
+        "ClearingHouse": {
+            "createdBlockNumber": 7448729,
+            "logic": "0xa2F79B43C85394E166D77389b60435ad6bA927B9",
+            "name": "contracts/ClearingHouse.sol:ClearingHouse",
+            "proxy": "0xEC1052F70d500814F3665fe22cD665b023faBe88"
+        },
+        "ClearingHouseConfig": {
+            "createdBlockNumber": 7448707,
+            "logic": "0x7E7f441a32C7b59bf12Ec345d139aA6EcBEA548A",
+            "name": "contracts/ClearingHouseConfig.sol:ClearingHouseConfig",
+            "proxy": "0x0D302f198D82C3239A78C370A875DDB8efaDaeFB"
+        },
+        "ETHAmm": {
+            "createdBlockNumber": 7448900,
+            "logic": "0xc222f9AbFa7E34F58DB3911eBB71532EE3B4c88B",
+            "name": "contracts/Amm.sol:Amm",
+            "proxy": "0x62F98cCA6DfCF9b5F26dd377Bb5c23e09e8033D0"
+        },
+        "ETHUSDCChainlinkPriceFeed": {
+            "createdBlockNumber": 7448891,
+            "logic": "0xbC5dD8b8e9dC05aBeD28dB17FE2f70a4C2a1A197",
+            "name": "contracts/ChainlinkPriceFeed.sol:ChainlinkPriceFeed",
+            "proxy": "0xf572261659D400C795A6B7802e376A3a40457313"
+        },
+        "InsuranceFund": {
+            "createdBlockNumber": 7448696,
+            "logic": "0x5fD58C7f7b155A4dea6B03f3490fC22449990763",
+            "name": "contracts/InsuranceFund.sol:InsuranceFund",
+            "proxy": "0x481765886665a78fA29F09DdDE9095a848386E44"
+        },
+        "LiquidityProvider": {
+            "createdBlockNumber": 7448713,
+            "logic": "0xcB6758369cD0E473393C2b41A52BD73cc7f3e556",
+            "name": "contracts/LiquidityProvider.sol:LiquidityProvider",
+            "proxy": "0xcb4Dc70e75D87D2D67e6DE627915b92F17471610"
+        },
+        "LimitOrderBook": {
+            "createdBlockNumber": 7660234,
+            "logic": "0x23baF147DdC92Fcb6C4B6Faa51374D26AD403bF0",
+            "name": "contracts/LimitOrderBook.sol:LimitOrderBook",
+            "proxy": "0xFb6BC8293061B4953aE70d87259875ACb97d1CFd"
+        },
+        "MarketTaker": {
+            "createdBlockNumber": 7448721,
+            "logic": "0x8beC287A582AFA0B91a759AcB09dFA9d15aB6E90",
+            "name": "contracts/MarketTaker.sol:MarketTaker",
+            "proxy": "0x6570944508068605284Bfd34625E25c4f93A5B9D"
+        },
+        "PositionMgmt": {
+            "createdBlockNumber": 7448716,
+            "logic": "0x60b20FD17fcEa644136e61E0e6dd059cc6B827F6",
+            "name": "contracts/PositionMgmt.sol:PositionMgmt",
+            "proxy": "0x016D8Cac1E18FDD677fDc263d27E6DF9C7612e19"
+        },
+        "QuoteToken": {
+            "createdBlockNumber": 7448687,
+            "logic": "0xe6B89761E260E811B8EAA43A74Be91e29B17976f",
+            "name": "contracts/QuoteToken.sol:QuoteToken",
+            "proxy": "0xF0845A927A8CD57205D9152d66bF5b4c557eDD10"
+        },
+        "SigmaReader": {
+            "createdBlockNumber": 7448743,
+            "logic": "0x683EA591421bEBAe20927Ca5BDb76A92b0EfDa00",
+            "name": "contracts/SigmaReader.sol:SigmaReader",
+            "proxy": "0x8270Df8F79B24Dc2146ffebB2C268311b22AdBfD"
+        },
+        "SigmaReferrer": {
+            "createdBlockNumber": 7448744,
+            "logic": "0xf67D875E450c9883F51Ab4b4dcDB54E85ae3788e",
+            "name": "contracts/SigmaReferrer.sol:SigmaReferrer",
+            "proxy": ""
+        },
+        "Vault": {
+            "createdBlockNumber": 7448725,
+            "logic": "0x62DFB4e016C2f03205b2dD6615F1178eC179F683",
+            "name": "contracts/Vault.sol:Vault",
+            "proxy": "0xF2D7584003D20493e8cCDCeaFfE36485f33be9e4"
+        },
+        "vBTC": {
+            "createdBlockNumber": 7448691,
+            "logic": "0x1238C2EbD0d913ACffd1F713BCFBc2d8Fb87E974",
+            "name": "contracts/BaseToken.sol:BaseToken",
+            "proxy": "0x13C44e043bF1D3832fefB227a7951848d597b571"
+        },
+        "vETH": {
+            "createdBlockNumber": 7448896,
+            "logic": "0x765C77855eAfA6296d1a49a52bE8f3B87e93e1d7",
+            "name": "contracts/BaseToken.sol:BaseToken",
+            "proxy": "0x568B4a93dA3d7d2f68E72674424bb565C8BF4A64"
+        }
+    },
+    "externalContracts": {
+        "ProxyAdmin": "0xC2c916094ac61aE7B9153437249F2c41c4452e91",
+        "AssetToken": "0xf7a118F91709bf7eB9B4fc35afcf221AF761E88a"
+    },
+    "amms": [
+        {
+            "address": "0xD59115A7B6a2fB3B43C0c29FEd84C74Ff0699bE3",
+            "baseAddress": "0x13C44e043bF1D3832fefB227a7951848d597b571",
+            "baseSymbol": "BTC",
+            "quoteAddress": "0xF0845A927A8CD57205D9152d66bF5b4c557eDD10",
+            "quoteSymbol": "USDC"
+        },
+        {
+            "address": "0x62F98cCA6DfCF9b5F26dd377Bb5c23e09e8033D0",
+            "baseAddress": "0x568B4a93dA3d7d2f68E72674424bb565C8BF4A64",
+            "baseSymbol": "ETH",
+            "quoteAddress": "0xF0845A927A8CD57205D9152d66bF5b4c557eDD10",
+            "quoteSymbol": "USDC"
+        }
+    ]
+}
