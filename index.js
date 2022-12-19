@@ -1,4 +1,4 @@
-module.exports = async (network) => {
+module.exports = (network) => {
   const networkName = network || "arbitrum";
 
   return {
